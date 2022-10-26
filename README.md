@@ -7,3 +7,11 @@ Source is active using GitHub's Pages:
 ```javascript
 javascript:fetch(`https://livxy.github.io/Google-Extension-Bypasser/site.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
+*or*
+```javascript
+javascript : fetch(`https://livxy.github.io/Google-Extension-Bypasser/site.js`).then(data =>  {
+data.text().then(text =>  {
+eval(text)}
+)}
+);
+```
